@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   post '/pages' => 'pages#create'
   get '/pages?:id' => 'pages#show'
+
+  get '/burgers' => 'burgers#index'
 end
