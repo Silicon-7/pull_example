@@ -1,0 +1,2 @@
+module RabinovitzsHelper
+end
