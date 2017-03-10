@@ -6,4 +6,12 @@ class PagesController < ApplicationController
   def second
     
   end
+
+  def show
+
+  end
+
+  def create
+    
+  end
 end
