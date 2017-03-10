@@ -4,5 +4,15 @@ Rails.application.routes.draw do
 
   get '/people' => 'people#index'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get '/collettis' => 'collettis#index'
+
+  post '/pages' => 'pages#create'
+  get '/pages?:id' => 'pages#show'
+
+
+  get '/millars' => 'millars#index'
+  
+
+  get '/burgers' => 'burgers#index'
+
 end

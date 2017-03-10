@@ -1,0 +1,2 @@
+module CollettisHelper
+end
